@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace MasterCrupt
+﻿namespace MasterCrupt
 {
-    public class UI {
-        Application application = new Application(); 
+    public class UI
+    {
+        private Application application = new Application();
         private string leeted;
-        
-        public string EncryptMessage(string unLeeted) 
+
+        public string EncryptMessage(string unLeeted)
         {
             application.Leet(unLeeted, this);
             return "Leeted: " + leeted;
         }
 
-        public void SetLeeted(string leeted) 
+        public void SetLeeted(string leeted)
         {
             this.leeted = leeted;
         }

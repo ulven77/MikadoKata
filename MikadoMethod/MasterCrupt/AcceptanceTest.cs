@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 
 namespace MasterCrupt
 {
-    [TestClass]
-    public class AcceptanceTest
+    [TestFixture]
+    internal class AcceptanceTest
     {
-        [TestMethod]
+        [Test]
         public void TestSecret()
         {
-            UI ui = new UI();
+            var ui = new UI();
             Assert.AreEqual("Leeted: S3cr3t", ui.EncryptMessage("Secret"));
         }
     }
