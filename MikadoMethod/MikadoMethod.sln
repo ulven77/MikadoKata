@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterCrupt", "MasterCrupt\MasterCrupt.csproj", "{DEBD5526-9F04-4720-8E5C-A00D17BF4110}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterCrupt2", "MasterCrupt\MasterCrupt2.csproj", "{DEBD5526-9F04-4720-8E5C-A00D17BF4110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{2883F400-3808-46C5-A297-3334DC628478}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DEBD5526-9F04-4720-8E5C-A00D17BF4110}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEBD5526-9F04-4720-8E5C-A00D17BF4110}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEBD5526-9F04-4720-8E5C-A00D17BF4110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2883F400-3808-46C5-A297-3334DC628478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2883F400-3808-46C5-A297-3334DC628478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2883F400-3808-46C5-A297-3334DC628478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2883F400-3808-46C5-A297-3334DC628478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

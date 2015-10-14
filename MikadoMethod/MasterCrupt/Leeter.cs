@@ -6,7 +6,7 @@ namespace MasterCrupt
 {
     public class Leeter
     {
-        public static String Leet(string message)
+        public static String Leet(string message, int customerType)
         {
             return message.Replace('e', '3');
         }

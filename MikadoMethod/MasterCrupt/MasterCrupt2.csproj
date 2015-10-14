@@ -7,8 +7,8 @@
     <ProjectGuid>{DEBD5526-9F04-4720-8E5C-A00D17BF4110}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MasterCrupt</RootNamespace>
-    <AssemblyName>MasterCrupt</AssemblyName>
+    <RootNamespace>MasterCrupt2</RootNamespace>
+    <AssemblyName>MasterCrupt2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

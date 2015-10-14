@@ -5,9 +5,9 @@
         private Application application = new Application();
         private string leeted;
 
-        public string EncryptMessage(string unLeeted)
+        public string EncryptMessage(string unLeeted, int customerType)
         {
-            application.Leet(unLeeted, this);
+            application.Leet(unLeeted, this, customerType);
             return "Leeted: " + leeted;
         }
 
