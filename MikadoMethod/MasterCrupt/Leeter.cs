@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace MasterCrupt
@@ -8,7 +9,16 @@ namespace MasterCrupt
     {
         public static String Leet(string message, int customerType)
         {
-            return message.Replace('e', '3');
+            var result = message;
+
+            result = result.Replace('e', '3').Replace('E', '3');
+
+            if (customerType == 2)
+            {
+                result = result.Replace('s', '5').Replace('S', '5');
+            }
+
+            return result;
         }
     }
 }
